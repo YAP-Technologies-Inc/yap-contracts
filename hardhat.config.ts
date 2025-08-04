@@ -1,4 +1,5 @@
 import { HardhatUserConfig } from "hardhat/config";
+require("@openzeppelin/hardhat-upgrades");
 import "@nomicfoundation/hardhat-toolbox";
 
 const config: HardhatUserConfig = {
