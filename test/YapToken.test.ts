@@ -28,7 +28,7 @@ describe("YapToken with permit() and role security", () => {
     const amount = ethers.parseEther("2");
     const nonce = await token.nonces(user.address);
     const block = await ethers.provider.getBlock("latest");
-    const deadline = block.timestamp + 3600;
+    const deadline = block!.timestamp + 3600;
 
     const { name, version } = await token.eip712Domain();
     const chainId = (await ethers.provider.getNetwork()).chainId;
