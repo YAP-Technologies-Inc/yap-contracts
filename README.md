@@ -1,3 +1,6 @@
+
+##TOKEN-V2 Branch audit please
+
 # YAP Token Test Contract
 
 This repository contains the smart contract and deployment setup for testing the **YAP Token** on the **Sei EVM Testnet**. It uses **Hardhat** and **OpenZeppelin** to create an **ERC20-compliant token** with minting and burning functionality. This is intended for **testnet usage only** during MVP development.
